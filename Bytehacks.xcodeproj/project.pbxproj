@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6BCAAD213B14CE002A50CB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BCAAC213B14CE002A50CB /* ImageViewController.swift */; };
+		1C6BCAAF213B2A92002A50CB /* pikachu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BCAAE213B2A92002A50CB /* pikachu.jpg */; };
+		1C6BCAB1213B2D2A002A50CB /* bytehacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BCAB0213B2D2A002A50CB /* bytehacks.swift */; };
 		1C7B30822139DEEE002CD684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B30812139DEEE002CD684 /* AppDelegate.swift */; };
 		1C7B30842139DEEE002CD684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7B30832139DEEE002CD684 /* ViewController.swift */; };
 		1C7B30872139DEEE002CD684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7B30852139DEEE002CD684 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6BCAAC213B14CE002A50CB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1C6BCAAE213B2A92002A50CB /* pikachu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pikachu.jpg; sourceTree = "<group>"; };
+		1C6BCAB0213B2D2A002A50CB /* bytehacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bytehacks.swift; sourceTree = "<group>"; };
 		1C7B307E2139DEEE002CD684 /* Bytehacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bytehacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7B30812139DEEE002CD684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7B30832139DEEE002CD684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		1C7B30752139DEEE002CD684 = {
 			isa = PBXGroup;
 			children = (
+				1C6BCAB0213B2D2A002A50CB /* bytehacks.swift */,
 				1C7B30802139DEEE002CD684 /* Bytehacks */,
 				1C7B307F2139DEEE002CD684 /* Products */,
 			);
@@ -56,8 +63,10 @@
 		1C7B30802139DEEE002CD684 /* Bytehacks */ = {
 			isa = PBXGroup;
 			children = (
+				1C6BCAAE213B2A92002A50CB /* pikachu.jpg */,
 				1C7B30812139DEEE002CD684 /* AppDelegate.swift */,
 				1C7B30832139DEEE002CD684 /* ViewController.swift */,
+				1C6BCAAC213B14CE002A50CB /* ImageViewController.swift */,
 				1C7B30852139DEEE002CD684 /* Main.storyboard */,
 				1C7B308B2139DEEE002CD684 /* Assets.xcassets */,
 				1C7B308D2139DEEE002CD684 /* LaunchScreen.storyboard */,
@@ -128,6 +137,7 @@
 				1C7B308F2139DEEE002CD684 /* LaunchScreen.storyboard in Resources */,
 				1C7B308C2139DEEE002CD684 /* Assets.xcassets in Resources */,
 				1C7B30872139DEEE002CD684 /* Main.storyboard in Resources */,
+				1C6BCAAF213B2A92002A50CB /* pikachu.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7B30842139DEEE002CD684 /* ViewController.swift in Sources */,
+				1C6BCAB1213B2D2A002A50CB /* bytehacks.swift in Sources */,
+				1C6BCAAD213B14CE002A50CB /* ImageViewController.swift in Sources */,
 				1C7B308A2139DEEE002CD684 /* Bytehacks.xcdatamodeld in Sources */,
 				1C7B30822139DEEE002CD684 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bytehacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bytehacks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
